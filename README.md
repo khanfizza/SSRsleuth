@@ -6,6 +6,19 @@
 
 # SSRsleuth
 This pipeline is in the beta version.
+
+```diff
++TO BE NOTED: 
++We are always working to improve SSRsleuth so any bug reports, suggestions and general feedback would be highly welcome. 
+```
+```
+  ___ ___ ___     _          _   _    
+ / __/ __| _ \ __| |___ _  _| |_| |_  
+ \__ \__ \   /(_-< / -_) || |  _| ' \ 
+ |___/___/_|_\/__/_\___|\_,_|\__|_||_| v0.1
+```                                        
+
 Install three tools: IMEx(http://www.mcr.org.in/imex), PERF(https://github.com/rkmlab/perf) and SSRMMD(https://github.com/GouXiangJian/SSRMMD) and their repositories in a conda environment
 Then run this pipeline with the command ./SSRsleuth with giving input of fasta file, number of threads to be used and an outfile.
+
 Run uniq.py script to find the consensus SSRs.  
